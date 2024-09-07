@@ -1,3 +1,4 @@
+#Define function
 def sum_array(arr):
     #Start tital sum as 0
     total_sum = 0
@@ -10,7 +11,7 @@ def sum_array(arr):
     #Return the total sum
     return total_sum
 
-arr = [1, 2, 3, 4, 5]  #define the array
+arr = [1, 2, 3, 4, 5]  #Define the array
 result = sum_array(arr)  #Call the function
 
 #Print result
