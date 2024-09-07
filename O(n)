@@ -1,0 +1,17 @@
+def sum_array(arr):
+    #Start tital sum as 0
+    total_sum = 0
+    
+    #Loop each number in an input array
+    for num in arr:
+        #Add number to total sum
+        total_sum += num
+    
+    #Return the total sum
+    return total_sum
+
+arr = [1, 2, 3, 4, 5]  #define the array
+result = sum_array(arr)  #Call the function
+
+#Print result
+print(f"The sum of the array is: {result}")
